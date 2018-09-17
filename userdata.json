@@ -357,8 +357,7 @@
             "#!/bin/bash\n",
 			"yum install -y httpd\n",
 			"systemctl enable httpd\n",
-			"systemctl start httpd\n",
-			"setenforce 0"
+			"systemctl start httpd\n"
 			] ]
     }
 }
