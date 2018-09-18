@@ -1,4 +1,4 @@
-hi how r u
+
 {
 
   "AWSTemplateFormatVersion" : "2010-09-09",
@@ -356,7 +356,8 @@ hi how r u
             "#!/bin/bash\n",
 			"yum install -y httpd\n",
 			"systemctl enable httpd\n",
-			"systemctl start httpd\n"
+			"systemctl start httpd\n",
+		"echo hello\n"
 			] ]
     }
 }
